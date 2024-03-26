@@ -6,8 +6,8 @@ const port = 3000;
 
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
-const publicKey = 'c87bf1a2c9a9f8217392fe5ac7c739f5';
-const privateKey = 'a023c80c34e524403587c0c956e4a3f19a0e432d';
+const publicKey = 'YOUR_PUBLIC_KEY';
+const privateKey = 'YOUR_PRIVATE_KEY';
 
 app.get('/', async (req, res) => {
   try {

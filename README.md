@@ -23,7 +23,7 @@ Marvel Character Search is a web application that allows users to search for Mar
 1. Clone the repository:
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/yashdhamu/Marvel-Character-Search.git
 ```
 
 2. Install dependencies:

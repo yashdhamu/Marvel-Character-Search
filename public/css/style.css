@@ -1,0 +1,200 @@
+/* public/css/style.css */
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Search */
+#search {
+  margin: 20px auto;
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Characters */
+#characters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.character {
+  width: 200px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.character h2 {
+  font-size: 18px;
+  margin-top: 0;
+  color: #333;
+}
+
+.character p {
+  color: #666;
+}
+
+.character img {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Pagination */
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination a {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.pagination a:hover {
+  background-color: #0056b3;
+}
+
+/* Loading Spinner */
+.loader {
+  border: 4px solid #f3f3f3; /* Light grey */
+  border-top: 4px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Hide the loader initially */
+.loader.hidden {
+  display: none;
+}
+
+.marvel-link {
+  color: #333;
+  text-decoration: none;
+}
+
+.marvel-link:hover {
+  text-decoration: underline;
+}
+
+/* Add this to your style.css file */
+
+.no-results {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.no-results-message {
+  color: #666;
+  font-size: 18px;
+}
+
+.suggestions-title {
+  color: #333;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.suggestions-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 5px;
+}
+
+.suggestions-list li {
+  color: #007bff; /* Blue color for suggestions */
+  font-size: 16px;
+}
+
+.suggestions-list li:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+/* public/css/style.css */
+
+/* Suggestions */
+.no-results {
+  margin-top: 20px;
+}
+
+.no-results-message {
+  font-weight: bold;
+  color: #f00; /* Red color for emphasis */
+}
+
+.suggestions-title {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.suggestions-list {
+  list-style-type: none; /* Remove default bullet points */
+  padding-left: 0; /* Remove default left padding */
+}
+
+.suggestions-list li {
+  margin-top: 5px; /* Spacing between suggestions */
+}
+
+.suggestions-list a {
+  text-decoration: none; /* Remove underline from links */
+  color: #007bff; /* Blue color for links */
+}
+
+.suggestions-list a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+
+/* Add this to your style.css file */
+.search-term {
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+
